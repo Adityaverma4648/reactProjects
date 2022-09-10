@@ -1,3 +1,4 @@
+/* @import <image> from "../img"; */
 .App {
   text-align: center;
 }
@@ -5,9 +6,19 @@
    cursor: pointer;
 }
 .App header{
-  height: 5vh;
-  background-color: bisque;
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.1)),url(../img/michelangelo-azzariti-m5UH6ZbDCy8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 45vh;
+  width: 100vw;
+  color: #fff;
+  background-color: rgb(36, 36, 36);
   text-align: center;
+}
+
+.App nav{
+  height: 5vh;
 }
 .App ul{
   display: flex;
@@ -15,12 +26,16 @@
   justify-content:right;
 }
 .App ul li a{
+  color: rgb(220, 220, 220);
   font-size: 18px;
   font-weight: 600;
 }
 .App li{
   list-style: none;
   padding: 10px 1rem;
+}
+.headline{
+  font-size:70px;
 }
 
 
