@@ -1,15 +1,25 @@
 /* @import <image> from "../img"; */
+
 .App {
+  z-index: 2;
+  height: 150vh;
+  max-width: 100vw;
+  overflow: hidden;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .logo{
    cursor: pointer;
+   padding: 1rem 0px;
 }
 .App header{
-  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.1)),url(../img/michelangelo-azzariti-m5UH6ZbDCy8-unsplash.jpg);
+  top: 0;
+  position: absolute;
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url(../img/michelangelo-azzariti-m5UH6ZbDCy8-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: center;
-
   height: 45vh;
   width: 100vw;
   color: #fff;
@@ -18,7 +28,8 @@
 }
 
 .App nav{
-  height: 5vh;
+  height: 10vh;
+  z-index: 9999;
 }
 .App ul{
   display: flex;
@@ -27,16 +38,59 @@
 }
 .App ul li a{
   color: rgb(220, 220, 220);
-  font-size: 18px;
+  font-size: 21px;
+  transition: all 0.4s ease-in-out;
   font-weight: 600;
+}
+.App ul li a:hover{
+  transition: all 0.4s ease-in-out;
+   color: #fff;
 }
 .App li{
   list-style: none;
-  padding: 10px 1rem;
+  padding: 10px 1.5rem;
 }
 .headline{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  /* height: 10vh; */
+  margin-top: 1rem ;
+  width: 100vw;
   font-size:70px;
 }
 
 
+.attract{
+  z-index: 99;
+  width: 80vw;
+  position: relative;
+  height: 40vh;
+  background-color: red;
+  margin-top: -45vh;
+}
+.Cont{
+  position: absolute;
+  height: 100%;
+  width:80vw;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: visible;
+  transition: all 0.2s ease-in-out;
+}
+.cont-animate{
+  position: relative;
+   height: 100%;
+   width:40vw;
+   background-image: url("../img/ahmed-RFBamHjBxUw-unsplash.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 
+}
+.shadow{
+  z-index: 2;
+  position: absolute;
+  background-color: rgb(37, 37, 37);
+}

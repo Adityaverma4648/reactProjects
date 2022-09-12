@@ -44,6 +44,34 @@ function App() {
                Explore The World With Us! 
             </div>
        </header>
+       <section className="attract">
+           <div className="text-secondary row Cont">
+              <div className="cont-animate rollnow bg-warning">
+               001
+              </div>
+              <div className="cont-animate rollnow">
+              </div>
+              <div className="cont-animate rollnow">
+              </div>
+              <div className="cont-animate rollnow">
+              </div>
+              <div className="cont-animate rollnow">
+              </div>
+              <div className="cont-animate rollnow">
+              </div>
+              <div className="cont-animate rollnow">
+              </div>
+              <div className="cont-animate rollnow">
+              </div>
+              <div className="cont-animate rollnow">
+              </div>
+              <div className="cont-animate rollnow">
+              </div>
+           </div>
+       </section>
+       <section className="shadow text-white">
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis repudiandae sit maiores vero, dolorum iure cum, unde natus hic quisquam et ipsam. Omnis suscipit assumenda amet accusantium eos, perspiciatis reprehenderit quisquam voluptates magni. Possimus minus nisi tempore repellat, quia illo incidunt nesciunt et at ab adipisci dolor sapiente repellendus explicabo dolorum nam cupiditate, accusamus reiciendis harum facere! Non a repudiandae doloremque doloribus culpa molestiae corrupti ratione sapiente.
+       </section>
     </div>
   );
 }
